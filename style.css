@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    background:#f8f9fa;
+}
+
+.profile-img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    object-fit:cover;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+footer{
+    background:#212529;
+    color:white;
+    padding:30px 0;
+}
+
+.social-links a{
+    text-decoration:none;
+    color:white;
+    margin:0 10px;
+}
+
+.social-links a:hover{
+    color:#0d6efd;
+}
+
+.navbar-brand{
+    font-size:1.5rem;
+}
+
+.card img{
+    height:220px;
+    object-fit:cover;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.hero{
+    text-align:center;
+    padding:50px 0;
+}
+
+.profile-img{
+    width:220px;
+    height:220px;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:2rem;
+}
+
+h2{
+    font-size:1.8rem;
+}
+
+}
+/* Contact Page */
+
+form label{
+    font-weight:600;
+}
+
+form input,
+form textarea{
+    border-radius:8px;
+}
+
+.btn{
+    border-radius:8px;
+}
+
+.card{
+    border:none;
+}
+
+.progress{
+    height:25px;
+}
+
+.progress-bar{
+    font-weight:bold;
+}
+
+.social-links{
+    margin-top:10px;
+}
+
+.social-links a{
+    margin-right:15px;
+    font-weight:bold;
+}
+
+.social-links a:hover{
+    text-decoration:underline;
+}
+
+footer p{
+    margin-bottom:8px;
+}
